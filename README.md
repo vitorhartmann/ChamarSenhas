@@ -18,9 +18,11 @@ client>src>pages>PasswordTerminal>index.js
 client>src>pages>ServiceTerminal>index.js
 
 Substituir pelo IP da máquina que será utilizada para hospedar localmente o web service.
-Trocar
+
+Trocar <br>
 const socket = io('192.168.16.100:8080', { transports: ['websocket'] })
-por
+
+por <br>
 const socket = io('XXX.XXX.XX.XXX:8080', { transports: ['websocket'] })
 
 
@@ -28,9 +30,11 @@ const socket = io('XXX.XXX.XX.XXX:8080', { transports: ['websocket'] })
 server>server.js
 
 Substituir pelo IP da máquina que será utilizada para hospedar localmente o web service.
-Trocar
+
+Trocar <br>
 const SERVER_HOST = '192.168.16.100';
-por
+
+por <br>
 const SERVER_HOST = 'XXX.XXX.XX.XXX';
 
 --------------------------------------------------------------------------------------------------------------------------------
